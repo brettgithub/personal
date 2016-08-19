@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 driver = webdriver.PhantomJS()
-driver.set_window_size(1120, 550)
+#driver.set_window_size(1120, 550)
 
 driver.get("http://www.python.org")
 assert "Python" in driver.title
